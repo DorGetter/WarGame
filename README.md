@@ -1,5 +1,5 @@
 <div dir="rtl" lang="he">
-
+![image](https://user-images.githubusercontent.com/57187365/82894283-08ff2280-9f5b-11ea-9f57-de7c6efa3785.png)
 # משחק מלחמה - שלב א
 
 במטלה זו עליכם לתכנן משחק מלחמה לשני שחקנים על לוח מלבני.
