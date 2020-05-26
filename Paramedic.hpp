@@ -1,0 +1,8 @@
+//
+// Created by dor on 24/05/2020.
+//
+
+#ifndef ASSIGMENT4A_PARAMEDIC_H
+#define ASSIGMENT4A_PARAMEDIC_H
+
+#endif //ASSIGMENT4A_PARAMEDIC_H

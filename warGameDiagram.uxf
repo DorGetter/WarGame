@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>320</y>
+      <w>224</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Soldier
+--
+Fields:
+--
+- player:int 
+- hp:int
+- damege:int
+--
+Constructors:
+--
+-Soldier()
+-Soldier(int hp , int damege , int player)
+-explicit Soldier(int player)
+-~Soldier()
+--
+Methods:
+--
+-int getHp()
+-int getDamege()
+-int getPlayer()
+-void SetHp(int hp)
+-void SetDamege()
+ 
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>624</y>
+      <w>104</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>FootSoldier
+--
+Constructors:
+--
+Methods:
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>832</x>
+      <y>624</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>ParamedicCommander
+--
+Constructors:
+--
+Methods:
+fg=black
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>232</x>
+      <y>624</y>
+      <w>112</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Sniper
+--
+Constructors:
+--
+Methods:
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>624</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>FootCommander
+--
+Constructors:
+--
+Methods:
+bg=blue
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>624</y>
+      <w>112</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Paramedic
+--
+Constructors:
+--
+Methods:
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>624</y>
+      <w>144</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>SniperCommander
+--
+Constructors:
+--
+Methods:
+fg=black
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>552</y>
+      <w>408</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;490.0;60.0;490.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>552</y>
+      <w>256</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;300.0;50.0;300.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>552</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;110.0;70.0;110.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>552</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;140.0;70.0;10.0;70.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>552</y>
+      <w>256</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>300.0;10.0;300.0;60.0;10.0;60.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>552</y>
+      <w>376</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>450.0;10.0;450.0;50.0;10.0;50.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>264</y>
+      <w>384</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>460.0;10.0;460.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>656</x>
+      <y>112</y>
+      <w>456</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Board
+--
+Fields:
+--
+-Soldier: Vector
+-MoveDirection:Enum
+{Up,Down,Right,Left}
+-num_Rows,num_Cols:uint
+--
+-operator[] pair:location &lt;-input
+-operator[] pair location;&lt;-gamestatus 
+-void move(uint player_number, std::pair&lt;int,int&gt; source, MoveDIR direction);
+-bool has_soldiers(uint player_number) const;
+-~Board()
+bg=red
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
